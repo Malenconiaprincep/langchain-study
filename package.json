@@ -1,0 +1,31 @@
+{
+  "name": "langchain-new",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "prereq:hello": "tsx src/prereq/hello.ts",
+    "phase1:chat": "tsx src/phase1/chat-tool-cli.ts",
+    "phase1:structured": "tsx src/phase1/structured-output.ts",
+    "phase2:approval": "tsx src/phase2/run.ts",
+    "phase3:research": "tsx src/phase3/run.ts",
+    "phase4:sse": "tsx src/phase4/sse-server.ts",
+    "capstone": "tsx src/capstone/run.ts",
+    "test": "tsx --test src/test/**/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.1.39",
+    "@langchain/langgraph": "^1.2.8",
+    "@langchain/openai": "^1.4.3",
+    "dotenv": "^16.4.7",
+    "langchain": "^1.3.1",
+    "zod": "^3.24.2"
+  }
+}
