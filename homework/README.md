@@ -1,3 +1,3 @@
-# 作业
+# Homework
 
-- [阶段一：城市天气简报 CLI](./阶段一-城市天气简报-作业.md)
+- [Phase 1: City weather brief CLI](./phase1-weather-brief-cli.md)
