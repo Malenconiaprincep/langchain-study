@@ -13,7 +13,9 @@
     "phase3:research": "tsx src/phase3/run.ts",
     "phase4:sse": "tsx src/phase4/sse-server.ts",
     "capstone": "tsx src/capstone/run.ts",
-    "test": "tsx --test src/test/**/*.test.ts"
+    "test": "tsx --test src/test/**/*.test.ts",
+    "work1": "tsx homework/work1/index.ts",
+    "phase1:weather": "tsx homework/work1/index.ts"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
